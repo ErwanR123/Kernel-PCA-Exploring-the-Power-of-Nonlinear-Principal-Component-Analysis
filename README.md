@@ -39,13 +39,13 @@ In this project, we demonstrate the advantages of Kernel PCA through an example 
 4. **Visualizations**:
    - Projections of the data in the transformed space for each kernel.
 
-##🖼️ Example Results
+## 🖼️ Example Results
 
-###Original Data
+### Original Data
 The synthetic 3D \textit{S-curve} dataset used for this project:
 
 
-##Projections with Different Kernels
+## Projections with Different Kernels
 Below are the projections obtained for various kernels after applying Kernel PCA:
 
 - Linear Kernel
@@ -54,7 +54,7 @@ Below are the projections obtained for various kernels after applying Kernel PCA
 
 - Polynomial Kernel
 
-##📊 Observed Results
+## 📊 Observed Results
 The following table summarizes the relative differences in pairwise distances between the original and transformed spaces for each kernel:
 
 Kernel	Relative Difference
@@ -64,12 +64,12 @@ RBF	: 0.93
 Sigmoid	: 0.79
 Cosine	: 0.44
 
-##Key Insights:
+## Key Insights:
 Linear Kernel: Perfectly preserves distances but fails to capture nonlinear relationships.
 Polynomial Kernel: Captures nonlinear interactions while moderately preserving distances.
 RBF Kernel: Unrolls the \textit{S-curve} effectively but significantly alters distances.
 Sigmoid Kernel: Produces transformations similar to RBF but slightly less intense.
 Cosine Kernel: Useful for angular relationships, providing a balance between preservation and transformation.
 
-##📧 Contact
+## 📧 Contact
 For any inquiries about this project or my thesis, feel free to reach out to me via GitHub or email.
