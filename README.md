@@ -38,7 +38,7 @@ In this project, we demonstrate the advantages of Kernel PCA through an example 
 ## 🖼️ Example Results
 
 ### Original Data
-The synthetic 3D \textit{S-curve} dataset used for this project:
+The synthetic 3D S-curve dataset used for this project:
 
 
 ### Projections with Different Kernels
@@ -53,7 +53,7 @@ Below are the projections obtained for various kernels after applying Kernel PCA
 ## 📊 Observed Results
 The following table summarizes the relative differences in pairwise distances between the original and transformed spaces for each kernel:
 
-Kernel	Relative Difference
+Kernel	 : Relative Difference
 
 Linear	 : $3.29 \times 10^{-16}$
 
