@@ -1,7 +1,3 @@
-# Kernel-PCA-Exploring-the-Power-of-Nonlinear-Principal-Component-Analysis
-This project explores Kernel PCA for analyzing nonlinear datasets. It compares different kernels (linear, polynomial, RBF, sigmoid, cosine) to showcase their effects on data transformation and visualization. Part of a Master’s thesis, it highlights how Kernel PCA surpasses traditional PCA in capturing complex structures.
-
-
 # Kernel PCA Analysis - Kernel Principal Component Analysis
 
 ![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
@@ -45,7 +41,7 @@ In this project, we demonstrate the advantages of Kernel PCA through an example 
 The synthetic 3D \textit{S-curve} dataset used for this project:
 
 
-## Projections with Different Kernels
+### Projections with Different Kernels
 Below are the projections obtained for various kernels after applying Kernel PCA:
 
 - Linear Kernel
@@ -58,17 +54,26 @@ Below are the projections obtained for various kernels after applying Kernel PCA
 The following table summarizes the relative differences in pairwise distances between the original and transformed spaces for each kernel:
 
 Kernel	Relative Difference
+
 Linear	 : $3.29 \times 10^{-16}$
+
 Polynomial	: 0.60
+
 RBF	: 0.93
+
 Sigmoid	: 0.79
+
 Cosine	: 0.44
 
 ## Key Insights:
-Linear Kernel: Perfectly preserves distances but fails to capture nonlinear relationships.
+Linear Kernel: Perfectly preserves distances but fails to capture nonlinear relationships. 
+
 Polynomial Kernel: Captures nonlinear interactions while moderately preserving distances.
-RBF Kernel: Unrolls the \textit{S-curve} effectively but significantly alters distances.
+
+RBF Kernel: Unrolls the S-curve effectively but significantly alters distances.
+
 Sigmoid Kernel: Produces transformations similar to RBF but slightly less intense.
+
 Cosine Kernel: Useful for angular relationships, providing a balance between preservation and transformation.
 
 ## 📧 Contact
