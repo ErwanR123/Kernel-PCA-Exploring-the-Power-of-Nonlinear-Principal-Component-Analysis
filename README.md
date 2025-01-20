@@ -53,17 +53,13 @@ Below are the projections obtained for various kernels after applying Kernel PCA
 ## 📊 Observed Results
 The following table summarizes the relative differences in pairwise distances between the original and transformed spaces for each kernel:
 
-Kernel	 : Relative Difference
-
-Linear	 : $3.29 \times 10^{-16}$
-
-Polynomial	: 0.60
-
-RBF	: 0.93
-
-Sigmoid	: 0.79
-
-Cosine	: 0.44
+| Kernel     | Relative Difference| 
+| -----------| -------------------| 
+| Linear     | 3.29 x 10^(-16)    | 
+| Polynomial | 0.60               | 
+| RBF        | 0.93               | 
+| Sigmoid    | 0.79               | 
+| Cosine     | 0.44               | 
 
 ## Key Insights:
 Linear Kernel: Perfectly preserves distances but fails to capture nonlinear relationships. 
