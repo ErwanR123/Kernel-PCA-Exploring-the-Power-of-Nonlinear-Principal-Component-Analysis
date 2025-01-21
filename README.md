@@ -40,15 +40,13 @@ In this project, we demonstrate the advantages of Kernel PCA through an example 
 ### Original Data
 The synthetic 3D S-curve dataset used for this project:
 
+![Capture d'écran](output.png)
+![Capture d'écran](output2.png)
 
 ### Projections with Different Kernels
 Below are the projections obtained for various kernels after applying Kernel PCA:
 
-- Linear Kernel
-
-- RBF Kernel
-
-- Polynomial Kernel
+![Capture d'écran](output3.png)
 
 ## 📊 Observed Results
 The following table summarizes the relative differences in pairwise distances between the original and transformed spaces for each kernel:
